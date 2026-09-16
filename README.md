@@ -1,16 +1,14 @@
-# trabajo
+# Mobile Actividad 1
 
-A new Flutter project.
+Aplicación Flutter con pantalla de login y registro de datos de usuario.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Pantalla de inicio de sesión con validación de usuario y contraseña.
+- Pantalla de bienvenida con formulario de registro (nombre, dirección, curso, ciudad, país, e-mail).
+- Diseño responsive centrado, adaptado para web y dispositivos móviles.
 
-A few resources to get you started if this is your first Flutter project:
+## Cómo ejecutar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub get
+flutter run -d chrome
